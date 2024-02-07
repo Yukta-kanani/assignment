@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+    
+    <div id="container">
+      <img class="lazy img-responsive" src="https://yednaps.github.io/img/beagle/img01.jpg" data-original="img/bmw_m1_hood.jpg" width="765" height="574" alt="Little guy">
+      <br/>
+      <img class="lazy img-responsive" data-original="https://yednaps.github.io/img/beagle/img02.jpg" width="765" height="574" alt="Beagle weed">
+      <br/>
+      <img class="lazy img-responsive" data-original="https://yednaps.github.io/img/beagle/img03.jpg" width="765" height="574" alt="Hot Doggin">
+      <br/>
+      <img class="lazy img-responsive" data-original="https://yednaps.github.io/img/beagle/img04.jpg" width="765" height="574" alt="Woodland Beagle">
+      <br/>
+      <img class="lazy img-responsive" data-original="https://yednaps.github.io/img/beagle/img05.jpg" width="765" height="574" alt="Beagle Ball">
+      <br/>
+        <img class="lazy img-responsive" data-original="https://yednaps.github.io/img/beagle/img06.jpg" width="765" height="574" alt="Lemon Beagle">
+    
+    </div>
+    
+    <script type="text/javascript" charset="utf-8">
+      $(function() {
+         $("img.lazy").lazyload({
+             effect : "fadeIn"
+         });
+    
+      });
+    </script>
+</body>
+</html>
